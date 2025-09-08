@@ -16,4 +16,9 @@ public class Multiples {
 
         return count;
     }
+
+    public static void main(String[] args) {
+        int count = multiples(1000, 3, 5);
+        System.out.println(count);
+    }
 }
